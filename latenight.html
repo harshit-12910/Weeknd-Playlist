@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Gallery</title>
+  
+    <link rel="stylesheet" href="latenight.css">
+    
+
+</head>
+<body>
+
+    <h1>For the Nights You Can't Sleep</h1>
+    <div class="gallery">
+        <div class="item" data-song="additional/audio/WickedGames.mp3">
+            <img src="additional/latenight/wickedgames.png" alt="Song 1">
+        </div>
+        <div class="item" data-song="additional/audio/CallOutMyName.mp3">
+            <img src="additional/latenight/calloutmyname.png" alt="Song 2">
+        </div>
+        <div class="item" data-song="additional/audio/TheHills.mp3">
+            <img src="additional/latenight/thehills.png" alt="Song 3">
+        </div>
+        <div class="item" data-song="additional/audio/LoftMusic.mp3">
+            <img src="additional/latenight/loftmusic.png" alt="Song 4">
+        </div>
+        <div class="item" data-song="additional/audio/RollingStone.mp3">
+            <img src="additional/latenight/rollingstone.png" alt="Song 5">
+        </div>
+        <div class="item" data-song="additional/audio/TwentyEight.mp3">
+            <img src="additional/latenight/twentyeight.png" alt="Song 6">
+        </div>
+        <div class="item" data-song="additional/audio/Montreal.mp3">
+            <img src="additional/latenight/montreal.png" alt="Song 7">
+        </div>
+        <div class="item" data-song="additional/audio/NothingWithoutYou.mp3">
+            <img src="additional/latenight/nothingwithoutyou.png" alt="Song 8">
+        </div>
+        <div class="item" data-song="additional/audio/Shameless.mp3">
+            <img src="additional/latenight/shameless.png" alt="Song 9">
+        </div>
+        <div class="item" data-song="additional/audio/TearsInTheRain.mp3">
+            <img src="additional/latenight/tearsintherain.png" alt="Song 10">
+        </div>
+        <div class="item" data-song="additional/audio/Outside.mp3">
+            <img src="additional/latenight/outside.png" alt="Song 11">
+        </div>
+        <div class="item" data-song="additional/audio/HeavenOrLasVegas.mp3">
+            <img src="additional/latenight/HeavenofLA.png" alt="Song 12">
+        </div>
+    </div>
+
+    <audio id="main-audio" src=""></audio>
+    <div class="controls">
+        <button id="prev-btn" disabled><img src="additional/buttons/rewind-button.png" alt="Previous"></button>
+        <button id="play-pause-btn"><img src="additional/buttons/play.png" alt="Play"></button>
+        <button id="next-btn" disabled><img src="additional/buttons/fast-forward.png" alt="Next"></button>
+    </div>
+    <div class="progress-area">
+      <div class="current-time">0:00</div>
+      <div class="progress-bar">
+        <div class="progress">
+          <span class="progress-indicator"></span>
+        </div>
+      </div>
+      <div class="duration">0:00</div>
+    </div>
+
+<script src="latenight.js"></script>
+
+</body>
+</html>
